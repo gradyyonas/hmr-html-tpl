@@ -1,0 +1,30 @@
+.site-title {
+  margin: 0 auto 25px auto;
+  padding: 8px 25px 8px 25px;
+  background: linear-gradient(
+      rgba($mainBlue, 0.85),
+      rgba($mainBlue, 0.75)
+    ), url(http://hartland.edu/images/hmr-html/22-4/gc-amen-1.jpg) no-repeat fixed;
+
+  &__main-title {
+    font-size: 2.55rem;
+    color: #fff;
+    line-height: 1.3;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  &__byline {
+    font-size: .9rem;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+  }
+}

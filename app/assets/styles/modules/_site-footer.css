@@ -3,12 +3,13 @@
 	color: #fff;
 	padding: .5rem 0;
 	text-align: center;
-	
+
 	&__text {
 		display: block;
 		margin-bottom: 1rem;
 		font-weight: 200;
-		
+		font-size: .8rem;
+
 		@mixin atMedium {
 			display: inline;
 			margin-bottom: 0;
